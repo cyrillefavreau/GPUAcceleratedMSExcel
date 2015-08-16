@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="GPU">
+      <UniqueIdentifier>{2a86702a-d52e-4f60-90a8-80c56c1b053b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPU\CUDA">
+      <UniqueIdentifier>{d826447f-5ffa-42a2-9255-85b9f82cdded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPU\OpenCL">
+      <UniqueIdentifier>{d7de21e2-5c47-44df-b330-a6fd7f1f68f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OCLKernel.cpp">
+      <Filter>GPU\OpenCL</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelCUDA.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ExcelCUDA.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="MonteCarloKernel.cl">
+      <Filter>GPU\OpenCL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ExcelCUDA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcelCUDA_kernel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcelCUDA_wrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OCLKernel.h">
+      <Filter>GPU\OpenCL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="ExcelCUDA_wrapper.cu">
+      <Filter>GPU\CUDA</Filter>
+    </CudaCompile>
+    <CudaCompile Include="ExcelCUDA_kernel.cu">
+      <Filter>GPU\CUDA</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

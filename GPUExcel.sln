@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExcelCUDA2010", "ExcelCUDA2010\ExcelCUDA2010.vcxproj", "{0BC73323-0C99-45C3-9E1B-DD90F7983324}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug CUDA|Win32 = Debug CUDA|Win32
+		Debug|Win32 = Debug|Win32
+		Release CUDA|Win32 = Release CUDA|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BC73323-0C99-45C3-9E1B-DD90F7983324}.Debug CUDA|Win32.ActiveCfg = Debug CUDA|Win32
+		{0BC73323-0C99-45C3-9E1B-DD90F7983324}.Debug CUDA|Win32.Build.0 = Debug CUDA|Win32
+		{0BC73323-0C99-45C3-9E1B-DD90F7983324}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0BC73323-0C99-45C3-9E1B-DD90F7983324}.Debug|Win32.Build.0 = Debug|Win32
+		{0BC73323-0C99-45C3-9E1B-DD90F7983324}.Release CUDA|Win32.ActiveCfg = Release CUDA|Win32
+		{0BC73323-0C99-45C3-9E1B-DD90F7983324}.Release CUDA|Win32.Build.0 = Release CUDA|Win32
+		{0BC73323-0C99-45C3-9E1B-DD90F7983324}.Release|Win32.ActiveCfg = Debug|Win32
+		{0BC73323-0C99-45C3-9E1B-DD90F7983324}.Release|Win32.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
